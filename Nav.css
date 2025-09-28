@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 nav {
-    background-color: #f0f0f0;
+    background-color: #222;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -26,7 +26,7 @@ nav {
   
   nav a {
     text-decoration: none;
-    color: #333;
+    color: #00ffbb;
     font-weight: bold;
     margin-right: 100px;
   }
@@ -37,8 +37,38 @@ nav {
     font-weight: bold;
   }
 
-  /*body
+  /*body*/
 
   body {
     font-family: Arial, sans-serif;
-  }*/
+    background-size: cover;  /* ปรับขนาดให้เต็มโดยไม่บิดสัดส่วน */
+    background-position: top; /* จัดให้อยู่กึ่งกลาง */
+  }
+
+  #introduction{
+    margin-top: 50px;
+    margin-left: 50px;
+    color: white;
+    font-size: 20px;
+  }
+
+  #introduction p{
+    width: 500px;
+    margin-top: 50px;
+    color: white;
+    font-size: 10px;
+  }
+
+  #social{
+    width:40px;
+    padding: 5px;
+    background-color: #ffffff;
+    position:absolute;
+    top: 300px;
+    left: 0px;
+    color: #00ffbb;
+  }
+  #social li img {
+   width : 25px;
+   margin-top: 5px;
+  }
