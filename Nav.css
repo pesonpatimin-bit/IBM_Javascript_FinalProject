@@ -72,3 +72,28 @@ nav {
    width : 25px;
    margin-top: 5px;
   }
+
+  #about_us{
+    margin-left: 10%;
+    margin-top: 5%;
+    color: whitesmoke;
+  }
+  #about_us p{
+    margin-top: 10px;
+    width: 300px;
+    color: whitesmoke;
+  }
+  #our_team{
+    margin-left: 10%;
+    margin-top: 5%;
+    color: whitesmoke;
+
+  }
+  .inline_div{
+    display: inline-block;
+    margin: 5px;
+    padding: 20px;
+    width:250px;
+    color: whitesmoke;
+    background: rgba(2, 2, 2, 0.5); /* สีดำ โปร่งใส 50% */
+  }
