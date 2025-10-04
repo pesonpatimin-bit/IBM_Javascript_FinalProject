@@ -97,3 +97,29 @@ nav {
     color: whitesmoke;
     background: rgba(2, 2, 2, 0.5); /* สีดำ โปร่งใส 50% */
   }
+
+  #contact_us{
+    margin-left: 10%;
+    margin-top: 5%;
+    color: whitesmoke;
+  }
+
+  #contact_us form *{
+    margin-left: 10%;
+    margin: 5%;
+    width: 300px;
+     color: whitesmoke;
+  }
+
+  #contact_us input{
+    background: rgba(2, 2, 2, 0.5); /* สีดำ โปร่งใส 50% */
+  }
+  #contact_us textarea{
+    background: rgba(2, 2, 2, 0.5); /* สีดำ โปร่งใส 50% */
+  }
+
+  .contact_us_div{
+    display: inline-block;
+    width: 500;
+    margin-top: 10px;
+    }
