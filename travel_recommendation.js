@@ -1,7 +1,7 @@
 //variable fetch data
 var url = './travel_recommendation_api.json';
 
-//function
+//function search
 function search_data(){
     fetch(url)
     .then(response => response.json())
@@ -12,13 +12,14 @@ function search_data(){
     })
     .catch(error => console.error('เกิดข้อผิดพลาด:', error));
 }
-//function check keyword
-//diferrence keyword sush "beach," or "beaches," "Beach" or "BEACH,"
-//convert to lovercase by toLowerCase()
-
+//function check keyword .diferrence keyword sush "beach," or "beaches," "Beach" or "BEACH,".convert to lovercase by toLowerCase()
+function check_search(){
+    const search_txt = document.getElementById("search_txt").value.toLowerCase();
+    console.log(search_txt);
+}
 
 
 
 //Event listener
 document.getElementById("search_btn").addEventListener("click",search_data);
-document.getElementById("reset_btn").addEventListener("click",search_data);
+document.getElementById("reset_btn").addEventListener("click",check_search);
