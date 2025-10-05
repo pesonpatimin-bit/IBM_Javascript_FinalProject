@@ -6,9 +6,21 @@ function search_data(){
     fetch(url)
     .then(response => response.json())
     .then(data => {
-        console.log(data);        
-        console.log(data.name);  
-        console.log(data.email);  
+        console.log(data);
+        
+        //show result
+        check_search();
+        
+
+
+
+
+
+
+
+
+
+
     })
     .catch(error => console.error('เกิดข้อผิดพลาด:', error));
 }
@@ -16,6 +28,18 @@ function search_data(){
 function check_search(){
     const search_txt = document.getElementById("search_txt").value.toLowerCase();
     console.log(search_txt);
+    switch(search_txt){
+        case "temple":
+            console.log(search_txt,"temples");
+            break;
+        case "beach":
+            console.log(search_txt,"beach");
+            break;
+        case "country":
+            console.log(search_txt,"country");
+            break;
+    }
+
 }
 
 

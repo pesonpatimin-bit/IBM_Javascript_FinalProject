@@ -46,8 +46,8 @@ nav {
   }
 
   #introduction{
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 10%;
+    margin-left: 10%;
     color: white;
     font-size: 20px;
   }
@@ -122,4 +122,13 @@ nav {
     display: inline-block;
     width: 500;
     margin-top: 10px;
+    }
+
+    #search_div{
+        position: absolute;
+        visibility:visible;
+        background-color: white;
+        color: #000;
+        top: 80px;
+        right: 20px;
     }
