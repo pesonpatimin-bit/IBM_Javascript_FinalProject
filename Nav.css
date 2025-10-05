@@ -119,10 +119,15 @@ nav {
   }
 
   .contact_us_div{
+    padding: 20px;
     display: inline-block;
-    width: 500;
+    width: 400px;
     margin-top: 10px;
     }
+
+ .contact_us_div button{
+        background: #00ffbb;
+        }
 
     #search_div{
         position: absolute;
